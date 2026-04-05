@@ -52,9 +52,9 @@ mysql -h 127.0.0.1 -u gdps -p gdps < database/04_more_games.sql
 
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@gdps.local | admin123 |
-| Developer | aurora@studio.local | dev123 |
-| Developer | nexus@indie.local | dev123 |
+| Admin | admin@gdps.com | admin123 |
+| Developer | aurora@dev.com | dev123 |
+| Producer | globalplay@studio.com | dev123 |
 | Consumer | elena@mail.local | consumer123 |
 
 ## Project highlights
