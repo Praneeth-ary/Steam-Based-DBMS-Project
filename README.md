@@ -76,7 +76,3 @@ mysql -h 127.0.0.1 -u gdps -p gdps < database/04_more_games.sql
 | `backend/` | `npm start` | Run API (plain Node.js) |
 | `frontend/` | `npm run dev` | Next.js dev |
 | `frontend/` | `npm run build` | Production build |
-
-## License
-
->>>>>>> e1bfb79 (Initial commit: Steam Based DBMS project)
