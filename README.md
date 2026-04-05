@@ -21,7 +21,7 @@ docker compose up -d
 cp backend/.env.example backend/.env
 # Defaults match docker-compose (user gdps / password gdps_secret / db gdps)
 
-cd backend && npm install && npm run dev
+cd backend && npm install && npm start
 ```
 
 In another terminal:
@@ -42,7 +42,7 @@ npm run dev
 2. Run `database/01_schema.sql` then `database/02_seed.sql` in MySQL Workbench or CLI.
 3. Set `backend/.env` `DB_*` variables accordingly.
 
-The seed includes **26 games** on the store. If you already loaded an older seed (12 games only), add the rest with:
+The seed includes **26 games** on the store. You can add the rest with:
 
 ```bash
 mysql -h 127.0.0.1 -u gdps -p gdps < database/04_more_games.sql
@@ -81,5 +81,4 @@ mysql -h 127.0.0.1 -u gdps -p gdps < database/04_more_games.sql
 
 ## License
 
-Educational / demonstration use for course evaluation.
 >>>>>>> e1bfb79 (Initial commit: Steam Based DBMS project)
