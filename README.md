@@ -1,4 +1,4 @@
-# GDPS — Digital Game Distribution Platform
+# GDPS — Digital Game Distribution Platform System
 
 **Steam-like Digital Game Distribution Platform built using React, Node.js, and MySQL, showcasing a fully normalized (BCNF) database with transaction-safe purchases, role-based access, and dynamic offers system**
 
