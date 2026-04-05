@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# Steam-Based-DBMS-Project
-Steam-like Digital Game Distribution Platform built using React, Node.js, and MySQL, showcasing a fully normalized (BCNF) database with transaction-safe purchases, role-based access, and dynamic offers system
-=======
 # GDPS — Digital Game Distribution Platform
+
+**Steam-like Digital Game Distribution Platform built using React, Node.js, and MySQL, showcasing a fully normalized (BCNF) database with transaction-safe purchases, role-based access, and dynamic offers system**
 
 Production-style demo implementing the **Database Design Document (SDD Final.pdf)**: MySQL InnoDB, 3NF schema, JWT + RBAC, Express API, Next.js UI, and a **Database Visualization Mode** for evaluators.
 
